@@ -15,6 +15,7 @@
 
         <asset:stylesheet src="bootstrap.css"/>
         <asset:stylesheet src="custom.css"/>
+        <asset:stylesheet src="styles.css"/>
         <asset:javascript src="bootstrap.js"/>
 		<g:layoutHead/>
 	</head>
@@ -42,27 +43,25 @@
 
                 <div id="navbar" class="collapse navbar-collapse mynavbar">
 
-                    <ul class="nav navbar-nav ">
+                    <g:if test="${session.user}">
+                        <ul class="nav navbar-nav ">
 
-                        <li><g:link controller="home">home</g:link></li>
-                        <li><g:link controller="profile">profile</g:link> </li>
-                        <li><g:link controller="friends">friends</g:link> </li>
+                            <li><g:link controller="home">home</g:link></li>
+                            <li><g:link controller="profile">profile</g:link> </li>
+                            <li><g:link controller="friends">friends</g:link> </li>
 
-                    </ul>
-
-                    <g:if test="${!user}">
+                        </ul>
                         <span class="pull-right" style="margin-top: -80px;">
                             <g:link controller="auth" action="logout" class="btn btn-primary">logout</g:link>
                         </span>
                     </g:if>
 
-                    <g:if test="${user}">
-                        <span class="pull-right" style="margin-top: -80px;">
+                    <g:else>
+                        <span class="pull-right" style="margin-top: -20px;">
                             <g:link controller="auth" action="login" class="btn btn-primary">Login</g:link>
-                            <g:link controller="signup" class="btn btn-primary">Signup</g:link>
+                            <g:link controller="signUp" class="btn btn-primary">Signup</g:link>
                         </span>
-                    </g:if>
-
+                    </g:else>
 
                 </div>
                 <!--/.nav-collapse -->
@@ -72,8 +71,6 @@
 
     </div>
 
-
-
         <g:layoutBody/>
 
     <div id="footer" class="clearfix">
@@ -82,7 +79,7 @@
 
             <div class="container-fluid">
 
-                <p class="text-center"></p>
+                <p class="text-center">Copyright..@2015</p>
                 <!--/.nav-collapse -->
 
             </div>
@@ -90,7 +87,5 @@
         </nav>
 
     </div>
-
-
-    </body>
+  </body>
 </html>

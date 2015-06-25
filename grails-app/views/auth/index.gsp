@@ -10,7 +10,7 @@
 
     <div class="row">
 
-        <div class="col-md-4 col-md-offset-4" style="margin-top: 80px;">
+        <div class="col-md-4 col-md-offset-4" style="margin-top: 20px;">
 
             <g:if test="${error}">
                 <div class="alert alert-danger" role="alert">${error}.</div>
@@ -24,23 +24,23 @@
 
                 <div class="panel-body">
 
-                    <form name="login" action="/Foodeezz/login" method="POST">
-
-                        <input type="email" name="email" class="form-control" placeholder="Email" required/><br>
-                        <input type="password" name="password" class="form-control" placeholder="password"
-                               required/><br>
-                        <input type="submit" class="btn btn-default form-control" name="login" value="login"/><br><br>
-
+                    <g:form action="login" method="POST">
+                         <g:textField name="email" id="email" class="form-control" placeholder="Email" /><br>
+                         <g:passwordField name="password" id="password" class="form-control" placeholder="Password" /> <br>
+                         <g:submitButton name="loginSubmit" class="form-control btn btn-default" value="login"/> <br>
 
                         <div class="text-center">
-                            <a href="signup"> Don't have an account? signup</a>
+                           <g:link controller="signUp">Don't have an account? signup</g:link>
                         </div>
+                    </g:form>
 
-                    </form>
+
                 </div>
             </div>
 
+
         </div>
+
 
     </div>
 
