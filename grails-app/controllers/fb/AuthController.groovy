@@ -2,9 +2,7 @@ package fb
 
 class AuthController {
 
-    def index() {
-        
-    }
+    def index() {}
 
     def login(){
         def email = params.email;

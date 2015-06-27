@@ -7,85 +7,74 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Grails Facebook"/></title>
+		<title><g:layoutTitle default="Grails Mini Facebook"/></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
 
         <asset:stylesheet src="bootstrap.css"/>
-        <asset:stylesheet src="custom.css"/>
         <asset:stylesheet src="styles.css"/>
+        <asset:javascript src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
         <asset:javascript src="bootstrap.js"/>
 		<g:layoutHead/>
 	</head>
 	<body>
 
-    <div id="header" class="clearfix">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span
+                        class="icon-bar"></span>
+                </button>
+                <g:if test="${!user}">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color: #428bca;">Mini-Facebook</a>
+                    </div>
+                </g:if>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse mynavbar">
 
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <ul class="nav navbar-nav">
 
-            <div class="container-fluid">
+                    <g:if test="${user}">
 
-                <div class="navbar-header">
+                        <li><g:link controller="home">Home</g:link></li>
+                        <li><g:link controller="profile" id="${user.id}">Profile</g:link></li>
+                        <li><g:link controller="friends">friends</g:link></li>
+                        <li><g:link controller="auth" action="logout">logout</g:link></li>
 
-                    <button type="button" class="navbar-toggle collapsed"
-                            data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                            aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span> <span
-                            class="icon-bar"></span> <span class="icon-bar"></span> <span
-                            class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="#">FB</a>
-
-                </div>
-
-                <div id="navbar" class="collapse navbar-collapse mynavbar">
-
-                    <g:if test="${session.user}">
-                        <ul class="nav navbar-nav ">
-
-                            <li><g:link controller="home">home</g:link></li>
-                            <li><g:link controller="profile">profile</g:link> </li>
-                            <li><g:link controller="friends">friends</g:link> </li>
-
-                        </ul>
-                        <span class="pull-right" style="margin-top: -80px;">
-                            <g:link controller="auth" action="logout" class="btn btn-primary">logout</g:link>
-                        </span>
                     </g:if>
 
-                    <g:else>
-                        <span class="pull-right" style="margin-top: -20px;">
-                            <g:link controller="auth" action="login" class="btn btn-primary">Login</g:link>
-                            <g:link controller="signUp" class="btn btn-primary">Signup</g:link>
-                        </span>
-                    </g:else>
-
-                </div>
-                <!--/.nav-collapse -->
+                </ul>
 
             </div>
-        </nav>
+            <!--/.nav-collapse -->
 
-    </div>
+        </div>
+    </nav>
 
         <g:layoutBody/>
 
-    <div id="footer" class="clearfix">
+        <!-- Bootstrap core JavaScript
+================================================== -->
+ %{--       <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/FacebookSpringJpa/resources/js/bootstrap.min.js"></script>--}%
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="view/js/ie10-viewport-bug-workaround.js"></script> -->
 
-        <nav class="navbar navbar-default footer" role="navigation">
 
-            <div class="container-fluid">
+    <script>
+        function confirmAction() {
+            var confirmed = confirm("Are you sure?");
+            return confirmed;
+        }
 
-                <p class="text-center">Copyright..@2015</p>
-                <!--/.nav-collapse -->
-
-            </div>
-
-        </nav>
-
-    </div>
-  </body>
+    </script>
+    </body>
 </html>

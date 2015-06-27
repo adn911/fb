@@ -2648,14 +2648,6 @@ select[multiple].input-lg {
     width: auto;
     vertical-align: middle;
   }
-
-    .form-inline .form-control-small {
-        display: inline-block;
-        width: 100px;
-        height:30px;
-        vertical-align: middle;
-    }
-
   .form-inline .input-group {
     display: inline-table;
     vertical-align: middle;
@@ -4101,7 +4093,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #FFF;
+  background-color: #d9edf7;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -5256,12 +5248,12 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #d6e9c6;
 }
 .panel-info {
-  border-color: #CCC;
+  border-color: #bce8f1;
 }
 .panel-info > .panel-heading {
   color: #31708f;
-  background-color: #FFF;
-  border-color: #CCC;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;

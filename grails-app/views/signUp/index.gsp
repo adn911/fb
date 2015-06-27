@@ -22,11 +22,9 @@
             <g:if test="${params.error}">
                     <div class="alert alert-danger" role="alert">${params.error}.
                         <g:hasErrors bean="${user}">
-                            <ul class="errors" role="alert">
                                 <g:eachError bean="${user}" var="error">
-                                    <li><g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
+                                    <li><g:message error="${error}"/></li>
                                 </g:eachError>
-                            </ul>
                         </g:hasErrors>
                     </div>
             </g:if>
@@ -49,9 +47,16 @@
                     <g:form action="signUp">
                         <g:textField name="username" id="username" class="form-control" placeholder="Enter Username"/> <br>
                         <g:textField name="email" id="email" class="form-control" placeholder="Enter Email"/> <br>
-                        <g:textField name="password" id="password" class="form-control" placeholder="Enter Password"/> <br>
+                        <g:passwordField name="password" id="password" class="form-control" placeholder="Enter Password"/> <br>
+
+                        <div class="form-control">
+                            <p style="display: inline-block">Date Of Birth:  </p> &nbsp;&nbsp;<g:datePicker name="dob" id="dob" precision="day"  style="padding: 10px;" /> <br>
+                        </div>
+
+                        <br>
                         <g:textField name="firstName" id="firstName" class="form-control" placeholder="Enter FirstName"/> <br>
                         <g:textField name="lastName" id="lastName" class="form-control" placeholder="Enter lastName"/> <br>
+
                         <g:submitButton name="signUpSubmit" value="submit" class="btn btn-default"/>
                     </g:form>
 

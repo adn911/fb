@@ -11,11 +11,14 @@ class SignUpController {
     def signUp(User user){
         if(user.hasErrors()){
             params.error = "Signup Failed!";
-        }else{
-            flash.success = "Signup Successful!";
-            user.save();
-        }
 
-        render(view: "index", model:[user: user]);
+            render(view: "index", model:[user: user]);
+        }else{
+            user.save();
+
+            flash.success = "Signup Successful!";
+
+            redirect(controller: "signUp");
+        }
     }
 }
