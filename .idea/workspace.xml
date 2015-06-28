@@ -142,7 +142,7 @@
       <file leaf-file-name="_postPanel.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="391" selection-end="391" vertical-scroll-proportion="0.42307693" vertical-offset="92" max-vertical-offset="645">
+            <state line="19" column="21" selection-start="822" selection-end="822" vertical-scroll-proportion="0.71153843" vertical-offset="137" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -753,12 +753,12 @@
       <workItem from="1435248792006" duration="4070000" />
       <workItem from="1435322496559" duration="1365000" />
       <workItem from="1435381418862" duration="10614000" />
-      <workItem from="1435502754715" duration="10163000" />
+      <workItem from="1435502754715" duration="10407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45787000" />
+    <option name="totallyTimeSpent" value="46031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1026" height="742" extended-state="6" />
@@ -1151,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="391" selection-end="391" vertical-scroll-proportion="0.42307693" vertical-offset="92" max-vertical-offset="645">
+        <state line="19" column="21" selection-start="822" selection-end="822" vertical-scroll-proportion="0.71153843" vertical-offset="137" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
