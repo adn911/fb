@@ -21,4 +21,5 @@ class User {
         dob nullable: false, blank: false
         password nullable: false, blank:false, size:3..99
     }
+
 }

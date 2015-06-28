@@ -33,7 +33,7 @@
             <c:if test="${!empty posts}">
 
                 <c:forEach items="${posts}" var="post">
-                    <%@include file="postPanel.jsp" %>
+                    <%@include file="_postPanel.gsp" %>
                     <c:forEach items="${post.comments}" var="comment">
                         <%@include file="commentPanel.jsp" %>
                     </c:forEach>

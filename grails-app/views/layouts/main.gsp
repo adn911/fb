@@ -21,60 +21,9 @@
 	</head>
 	<body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed"
-                        data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span
-                        class="icon-bar"></span>
-                </button>
-                <g:if test="${!user}">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#" style="color: #428bca;">Mini-Facebook</a>
-                    </div>
-                </g:if>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse mynavbar">
-
-                <ul class="nav navbar-nav">
-
-                    <g:if test="${user}">
-
-                        <li><g:link controller="home">Home</g:link></li>
-                        <li><g:link controller="profile" id="${user.id}">Profile</g:link></li>
-                        <li><g:link controller="friends">friends</g:link></li>
-                        <li><g:link controller="auth" action="logout">logout</g:link></li>
-
-                    </g:if>
-
-                </ul>
-
-            </div>
-            <!--/.nav-collapse -->
-
-        </div>
-    </nav>
-
+    <g:include view="/templates/header.gsp"/>
         <g:layoutBody/>
+    <g:include view="/templates/footer.gsp"/>
 
-        <!-- Bootstrap core JavaScript
-================================================== -->
- %{--       <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/FacebookSpringJpa/resources/js/bootstrap.min.js"></script>--}%
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <script src="view/js/ie10-viewport-bug-workaround.js"></script> -->
-
-
-    <script>
-        function confirmAction() {
-            var confirmed = confirm("Are you sure?");
-            return confirmed;
-        }
-
-    </script>
     </body>
 </html>

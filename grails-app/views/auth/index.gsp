@@ -24,6 +24,7 @@
 
                 <div class="panel-body">
 
+
                     <g:form action="login" method="POST">
                          <g:textField name="email" id="email" class="form-control" placeholder="Email" /><br>
                          <g:passwordField name="password" id="password" class="form-control" placeholder="Password" /> <br>

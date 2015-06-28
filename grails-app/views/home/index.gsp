@@ -11,7 +11,7 @@
     <div class="row">
 
         <g:include view="/templates/postInputBox.gsp"></g:include>
-        %{--<%@include file="postInputBox.jsp" %>--}%
+
     </div>
 
     <div class="row">
@@ -20,19 +20,24 @@
 
             <g:if test="${posts}">
 
-                <g:forEach items="${posts}" var="post">
+                <g:each var="post" in="${posts}" >
 
-                    <%@include file="postPanel.jsp" %>
+                    <g:render template="/templates/postPanel" model="[post:post]"/>
 
-                    <g:forEach items="${post.comments}" var="comment">
-                        %{--<%@include file="commentPanel.jsp" %>--}%
-                    </g:forEach>
+                    %{--<%@include file="_postPanel.gsp" %>--}%
 
-                    <%@include file="commentInputBox.jsp" %>
+                  %{--  <g:each in="${post.comments}" var="comment">
 
-                    <hr class="divider">
+                        <g:include view="/templates/commentPanel.jsp"/>
+                        --}%%{--<%@include file="commentPanel.jsp" %>--}%%{--
+                    </g:each>
 
-                </g:forEach>
+                    <g:include view="/templates/commentInputBox.jsp"/>
+                    --}%%{--<%@include file="commentInputBox.jsp" %>--}%%{--
+
+                    <hr class="divider">--}%
+
+                </g:each>
 
             </g:if>
 
