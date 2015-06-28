@@ -12,7 +12,7 @@
         at ${post.dateTime}
         ${post.user.id}
 
-        <g:if test="${post.user.id == user.id}">
+        <g:if test="${post.user.id == session.user.id}">
             <g:form controller="post"  action="remove" method="post" onsubmit="return confirmAction()">
                 <g:hiddenField name="postId" value="${post.id}"/>
                 <g:submitButton class="glyphicon glyphicon-trash btn pull-right"
