@@ -1,0 +1,21 @@
+<%@ taglib prefix="g" uri="http://grails.codehaus.org/tags" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: bakhtiar.galib
+  Date: 3/11/15
+  Time: 2:46 PM
+  To change this template use File | Settings | File Templates.
+--%>
+
+
+<div class="panel panel-info col-md-offset-1">
+    <div class="panel-body">
+        <%-- Add a comment<br>--%>
+        <g:form controller="comment" action="add" method="POST">
+            <g:hiddenField name="postId" value="${post.id}"/>
+            <g:textArea class="form-control" rows="1" name="commentContent" placeholder="Add Comment.."
+                     required="required"></g:textArea>
+            <g:submitButton class="btn btn-default pull-right" name="commentSubmit" value="comment"/>
+        </g:form>
+    </div>
+</div>

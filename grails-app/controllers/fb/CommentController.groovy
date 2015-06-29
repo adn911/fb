@@ -2,7 +2,11 @@ package fb
 
 class CommentController {
 
-    def index() {
+    def add() {
         
+    }
+
+    def remove() {
+
     }
 }

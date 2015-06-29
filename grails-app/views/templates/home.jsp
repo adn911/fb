@@ -24,10 +24,10 @@
                     <%@include file="_postPanel.gsp" %>
 
                     <c:forEach items="${post.comments}" var="comment">
-                        <%@include file="commentPanel.jsp" %>
+                        <%@include file="_commentPanel.gsp" %>
                     </c:forEach>
 
-                    <%@include file="commentInputBox.jsp" %>
+                    <%@include file="_commentInputBox.gsp" %>
 
                     <hr class="divider">
 

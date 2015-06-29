@@ -26,9 +26,9 @@
 	</head>
 	<body>
 
-    <g:include view="/templates/header.gsp"/>
+    <g:include view="/templates/_header.gsp"/>
         <g:layoutBody/>
-    <g:include view="/templates/footer.gsp"/>
+    <g:include view="/templates/_footer.gsp"/>
 
     </body>
 </html>

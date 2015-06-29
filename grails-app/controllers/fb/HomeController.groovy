@@ -3,8 +3,14 @@ package fb
 class HomeController {
 
     def index() {
-        def user = User.findById(session.user.id,[fetch:[posts: "Eager"]]);
+        def user = User.findById(session.user.id);
 
-        render(view: "index", model: [posts: user.posts])
+        def newsFeedPosts = user.posts;
+
+        user.friends.each {friend->
+            newsFeedPosts.addAll(friend.posts)
+        }
+
+        render(view: "index", model: [posts: newsFeedPosts])
     }
 }

@@ -35,7 +35,7 @@
                 <c:forEach items="${posts}" var="post">
                     <%@include file="_postPanel.gsp" %>
                     <c:forEach items="${post.comments}" var="comment">
-                        <%@include file="commentPanel.jsp" %>
+                        <%@include file="_commentPanel.gsp" %>
                     </c:forEach>
                 </c:forEach>
 

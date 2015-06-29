@@ -10,7 +10,7 @@
 
     <div class="row">
 
-        <g:include view="/templates/postInputBox.gsp"></g:include>
+        <g:include view="/templates/_postInputBox.gsp"></g:include>
 
     </div>
 
@@ -24,18 +24,13 @@
 
                     <g:render template="/templates/postPanel" model="[post:post]"/>
 
-                    %{--<%@include file="_postPanel.gsp" %>--}%
-
-                  %{--  <g:each in="${post.comments}" var="comment">
-
-                        <g:include view="/templates/commentPanel.jsp"/>
-                        --}%%{--<%@include file="commentPanel.jsp" %>--}%%{--
+                    <g:each var="comment" in="${post.comments}">
+                        <g:render template="/templates/commentPanel" model="[comment:comment]"/>
                     </g:each>
 
-                    <g:include view="/templates/commentInputBox.jsp"/>
-                    --}%%{--<%@include file="commentInputBox.jsp" %>--}%%{--
+                    <g:render template="/templates/commentInputBox" model="[post:post]"/>
 
-                    <hr class="divider">--}%
+                    <hr class="divider">
 
                 </g:each>
 
