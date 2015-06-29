@@ -2,16 +2,16 @@ package fb
 
 class PostController {
 
-    def add(){
-         def user = session.user;
+    def add() {
+        def user = (User) session.user;
 
-         def newPost = new Post(content: params.postContent,user: user,dateTime: new Date())
-         newPost.save();
+        def newPost = new Post(content: params.postContent, user: user, dateTime: new Date())
+        newPost.save();
 
-         redirect(controller: "home")
+        redirect(controller: "home")
     }
 
-    def remove(){
+    def remove() {
         def user = session.user;
 
         Post.get(params.postId).delete(flush: true);

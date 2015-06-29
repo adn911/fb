@@ -11,8 +11,11 @@ class User {
     Date dob;
     String password;
 
-    static hasMany = [posts:Post,comments:Comment,likes:PostLike,friends:User];
+ /*   List posts;
+    List comments;
+    List likes;*/
 
+    static hasMany = [posts:Post,comments:Comment,likes:PostLike,friends:User];
     static mappedBy  = [ friends: 'friends' ]
 
     static constraints = {

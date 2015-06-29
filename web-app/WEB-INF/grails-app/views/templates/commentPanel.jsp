@@ -1,3 +1,4 @@
+<%@ taglib prefix="g" uri="http://grails.codehaus.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: bakhtiar.galib
@@ -10,7 +11,7 @@
 
     <div class="panel-body">
 
-        Commented by <a href="/FacebookSpringJpa/profile/${comment.user.id}">${comment.user.username}</a>
+        Commented by <g:link controller="profile" id="${comment.user.id}">${comment.user.username}</a>
         on ${comment.created}
         <c:if test="${comment.user.id == user.id}">
 

@@ -73,19 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_postPanel.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="43" selection-start="591" selection-end="597" vertical-scroll-proportion="-2.2340426" vertical-offset="135" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_postInputBox.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postInputBox.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="581" selection-end="581" vertical-scroll-proportion="-3.8085105" vertical-offset="31" max-vertical-offset="300">
+            <state line="10" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="-0.0" vertical-offset="150" max-vertical-offset="300">
               <folding>
                 <marker date="1435594306560" expanded="true" signature="207:521" placeholder="..." />
                 <marker date="1435594306560" expanded="true" signature="284:399" placeholder="..." />
@@ -97,22 +88,7 @@
       <file leaf-file-name="_commentInputBox.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentInputBox.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="448" selection-end="448" vertical-scroll-proportion="-2.212766" vertical-offset="106" max-vertical-offset="405">
-              <folding>
-                <marker date="1435590384512" expanded="true" signature="267:755" placeholder="..." />
-                <marker date="1435590384512" expanded="true" signature="296:748" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostLike.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/PostLike.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="240">
+            <state line="14" column="39" selection-start="431" selection-end="437" vertical-scroll-proportion="-0.29787233" vertical-offset="196" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -120,11 +96,26 @@
       </file>
       <file leaf-file-name="Comment.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Comment.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.7551022" vertical-offset="0" max-vertical-offset="240">
+            <state line="8" column="5" selection-start="148" selection-end="148" vertical-scroll-proportion="-5.2173915" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/CommentController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.60714287" vertical-offset="211" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -133,28 +124,7 @@
       <file leaf-file-name="_commentPanel.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentPanel.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="903" selection-end="903" vertical-scroll-proportion="-3.5106382" vertical-offset="165" max-vertical-offset="510">
-              <folding>
-                <marker date="1435593522352" expanded="true" signature="453:868" placeholder="..." />
-                <marker date="1435593522352" expanded="true" signature="496:852" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="145" selection-end="145" vertical-scroll-proportion="0.42682928" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/CommentController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="-4.5652175" vertical-offset="0" max-vertical-offset="270">
+            <state line="17" column="46" selection-start="599" selection-end="608" vertical-scroll-proportion="-1.9148936" vertical-offset="165" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -163,16 +133,28 @@
       <file leaf-file-name="PostController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="267" selection-end="267" vertical-scroll-proportion="-8.478261" vertical-offset="0" max-vertical-offset="405">
+            <state line="18" column="36" selection-start="263" selection-end="399" vertical-scroll-proportion="-7.173913" vertical-offset="105" max-vertical-offset="405">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostLike.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/PostLike.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-2.531915" vertical-offset="316" max-vertical-offset="750">
+            <state line="26" column="55" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -195,16 +177,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/fb/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/commentInputBox.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/commentPanel.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/_commentPanel.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/_postInputBox.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/fb/Comment.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/fb/PostLike.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/fb/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/fb/Post.groovy" />
+        <option value="$PROJECT_DIR$/web-app/WEB-INF/grails-app/views/templates/commentPanel.jsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/CommentController.groovy" />
       </list>
     </option>
@@ -247,6 +233,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -445,8 +433,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -467,6 +453,7 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/projects/therap/suite" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -728,6 +715,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" text="/*   List postLikes;&#10;    List postComments;*/" recursive="true" caseInsensitive="true" type="Groovy" history="1" />
+    <searchConfiguration name="user defined" text="/*   List posts;&#10;    List comments;&#10;    List likes;*/" recursive="true" caseInsensitive="true" type="Groovy" history="1" />
+    <searchConfiguration name="user defined" text="/*static mappedBy  = [ friends: 'friends' ]*/" recursive="true" caseInsensitive="true" type="Groovy" history="1" />
     <searchConfiguration name="user defined" text="%{-- &lt;g:render template=&quot;/templates/commentPanel&quot; model=&quot;[]&quot;/&gt;--}%" recursive="true" caseInsensitive="true" type="XML" history="1" />
   </component>
   <component name="SvnConfiguration">
@@ -745,12 +735,13 @@
       <workItem from="1435381418862" duration="10614000" />
       <workItem from="1435502754715" duration="10407000" />
       <workItem from="1435491733848" duration="10995000" />
-      <workItem from="1435586814904" duration="8170000" />
+      <workItem from="1435586814904" duration="15872000" />
+      <workItem from="1435606102272" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65196000" />
+    <option name="totallyTimeSpent" value="74330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1026" height="742" extended-state="6" />
@@ -776,7 +767,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -788,6 +778,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -808,11 +799,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -821,13 +807,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
@@ -844,9 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/AuthController.groovy">
@@ -857,13 +841,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
@@ -885,19 +869,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Foodeezz/src/main/webapp/WEB-INF/views/header.jsp">
@@ -922,9 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_cs_CZ.properties">
@@ -932,9 +912,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
@@ -965,9 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/signUp/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
@@ -996,9 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/font-awesome.css">
@@ -1010,9 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
@@ -1039,44 +1011,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8796562" vertical-offset="656" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.0612245" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/PostLike.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="-1.6938776" vertical-offset="37" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -1095,43 +1035,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentPanel.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="903" selection-end="903" vertical-scroll-proportion="-3.5106382" vertical-offset="165" max-vertical-offset="510">
-          <folding>
-            <marker date="1435593522352" expanded="true" signature="453:868" placeholder="..." />
-            <marker date="1435593522352" expanded="true" signature="496:852" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentInputBox.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="448" selection-end="448" vertical-scroll-proportion="-2.212766" vertical-offset="106" max-vertical-offset="405">
-          <folding>
-            <marker date="1435590384512" expanded="true" signature="267:755" placeholder="..." />
-            <marker date="1435590384512" expanded="true" signature="296:748" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.2788104" vertical-offset="0" max-vertical-offset="1485">
+        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.2788104" vertical-offset="0" max-vertical-offset="1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-2.531915" vertical-offset="316" max-vertical-offset="750">
+        <state line="13" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postInputBox.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="581" selection-end="581" vertical-scroll-proportion="-3.8085105" vertical-offset="31" max-vertical-offset="300">
+        <state line="10" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
           <folding>
             <marker date="1435594306560" expanded="true" signature="207:521" placeholder="..." />
             <marker date="1435594306560" expanded="true" signature="284:399" placeholder="..." />
@@ -1139,40 +1064,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="591" selection-end="597" vertical-scroll-proportion="-2.2340426" vertical-offset="135" max-vertical-offset="645">
+        <state line="26" column="55" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="120" selection-end="120" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/PostLike.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="-1.2857143" vertical-offset="12" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Comment.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="148" selection-end="148" vertical-scroll-proportion="-5.2173915" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="263" selection-end="399" vertical-scroll-proportion="-7.173913" vertical-offset="105" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentInputBox.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="431" selection-end="437" vertical-scroll-proportion="-0.29787233" vertical-offset="196" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/grails-app/views/templates/commentPanel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="461" selection-end="461" vertical-scroll-proportion="0.6411483" vertical-offset="91" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_commentPanel.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="599" selection-end="608" vertical-scroll-proportion="-1.9148936" vertical-offset="165" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/CommentController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="-4.5652175" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="267" selection-end="267" vertical-scroll-proportion="-8.478261" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Comment.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.7551022" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="145" selection-end="145" vertical-scroll-proportion="0.42682928" vertical-offset="0" max-vertical-offset="330">
+        <state line="5" column="32" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.60714287" vertical-offset="211" max-vertical-offset="435">
           <folding />
         </state>
       </provider>

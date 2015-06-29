@@ -7,7 +7,7 @@ class HomeController {
 
         def newsFeedPosts = user.posts;
 
-        user.friends.each {friend->
+        user.friends.each { friend ->
             newsFeedPosts.addAll(friend.posts)
         }
 

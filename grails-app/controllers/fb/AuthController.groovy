@@ -5,22 +5,22 @@ class AuthController {
 
     def index() {}
 
-    def login(){
+    def login() {
         def email = params.email;
         def password = params.password;
 
-        def user = User.findByEmailAndPassword(email,password);
+        def user = User.findByEmailAndPassword(email, password);
 
-        if(!user){
-            render (view: "index", model: [error:"INVALID CREDINTIALS"])
-        }else{
+        if (!user) {
+            render(view: "index", model: [error: "INVALID CREDINTIALS"])
+        } else {
             session.user = user;
-            redirect (controller: "home");
+            redirect(controller: "home");
         }
     }
 
-    def logout(){
+    def logout() {
         session.invalidate();
-        redirect (controller: "auth");
+        redirect(controller: "auth");
     }
 }
