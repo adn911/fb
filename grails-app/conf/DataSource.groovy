@@ -20,18 +20,22 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost/fb"
+            logSql = true
         }
     }
     test {
         dataSource {
             dbCreate = "update"
             url = "jdbc:mysql://localhost/fb"
+            logSql = true
         }
     }
     production {
         dataSource {
             dbCreate = "update"
             url = "jdbc:mysql://localhost/fb"
+            logSql = true
+
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                jmxEnabled = true

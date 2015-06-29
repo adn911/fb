@@ -5,7 +5,7 @@ class Post {
     Date dateTime;
 
     static belongsTo = [user: User];
-    static hasMany = [likes: Like, comments:Comment];
+    static hasMany = [likes: PostLike, comments:Comment];
     static constraints = {
     }
 }

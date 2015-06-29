@@ -15,19 +15,19 @@
         <g:if test="${post.user.id == session.user.id}">
             <g:form controller="post"  action="remove" method="post" onsubmit="return confirmAction()">
                 <g:hiddenField name="postId" value="${post.id}"/>
-                <g:submitButton class="glyphicon glyphicon-trash btn pull-right"
-                        style="margin-top:-26px;background: transparent;" name="removePostSubmit"/>
+                <button type="submit" class="btn pull-right"
+                        style="margin-top:-26px;background: transparent;" name="removePostSubmit"><i class="glyphicon glyphicon-trash "></i></button>
             </g:form>
         </g:if>
     </div>
 
     <div class="panel-body">
         <p>${post.content}</p>
-        <span>%{--${post.likes.length}--}%
+        <span>${post.likes.size()}
         <g:form controller="likes" action="add"  method="post" >
             <g:hiddenField name="postId" value="${post.id}"/>
-            <g:submitButton class="glyphicon glyphicon-thumbs-up btn pull-left"
-                    style="margin-top:-26px;background: transparent;" name="addLikeSubmit"/>
+            <button class="btn pull-left"
+                    style="margin-top:-26px;background: transparent;" name="addLikeSubmit"><i class="glyphicon glyphicon-thumbs-up"></i> </button>
         </g:form>
             </span>
     </div>

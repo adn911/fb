@@ -11,7 +11,7 @@ class User {
     Date dob;
     String password;
 
-    static hasMany = [posts:Post,comments:Comment,likes:Like];
+    static hasMany = [posts:Post,comments:Comment,likes:PostLike,friends: UserFriend];
 
     static constraints = {
         username nullable: false, blank: false, size:3..99
@@ -22,4 +22,5 @@ class User {
         password nullable: false, blank:false, size:3..99
     }
 
+    static mappedBy = [friends: 'user']
 }

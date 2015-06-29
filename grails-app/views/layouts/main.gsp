@@ -13,9 +13,14 @@
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
 
+
+
+	    <asset:stylesheet src="application.css"/>
         <asset:stylesheet src="bootstrap.css"/>
+
         <asset:stylesheet src="styles.css"/>
-        <asset:javascript src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
         <asset:javascript src="bootstrap.js"/>
 		<g:layoutHead/>
 	</head>
