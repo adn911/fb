@@ -24,17 +24,15 @@
 
                 <div class="panel-body">
 
-
                     <g:form action="login" method="POST">
                          <g:textField name="email" id="email" class="form-control" placeholder="Email" /><br>
                          <g:passwordField name="password" id="password" class="form-control" placeholder="Password" /> <br>
-                         <g:submitButton name="loginSubmit" class="form-control btn btn-default" value="login"/> <br>
+                         <g:submitButton name="loginSubmit" class="form-control btn btn-info" value="login"/> <br>
 
                         <div class="text-center">
                            <g:link controller="signUp">Don't have an account? signup</g:link>
                         </div>
                     </g:form>
-
 
                 </div>
             </div>

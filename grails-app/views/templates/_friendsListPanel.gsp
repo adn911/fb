@@ -24,13 +24,9 @@
                 <div class="info-div">
                     Username: <g:link controller="profile" id="${friend.id}">${friend.username}</g:link>
 
-                    <p>FullName: ${friend.firstName} ${friend.lastName}
+                    <p>FullName: ${friend.firstName} ${friend.lastName} </p>
 
-                    <p>
-
-                    <p>Date Of Birth: ${friend.dob}
-
-                    <p>
+                    <p>Date Of Birth: ${friend.dob} </p>
 
                     <g:form controller="friend" action="remove" method="post" onsubmit="return confirmAction()">
                         <g:hiddenField name="userId" value="${friend.id}"/>
@@ -41,8 +37,6 @@
             </div>
 
         </g:each>
-
-
 
     </div>
 

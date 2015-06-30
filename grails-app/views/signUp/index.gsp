@@ -57,7 +57,7 @@
                         <g:textField name="firstName" id="firstName" class="form-control" placeholder="Enter FirstName"/> <br>
                         <g:textField name="lastName" id="lastName" class="form-control" placeholder="Enter lastName"/> <br>
 
-                        <g:submitButton name="signUpSubmit" value="submit" class="btn btn-primary"/>
+                        <g:submitButton name="signUpSubmit" value="submit" class="btn btn-info"/>
 
                         <g:link controller="auth" class="btn">Login</g:link>
 

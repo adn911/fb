@@ -24,7 +24,7 @@
     <div class="panel-body">
         <p>${post.content}</p>
         <span>${post.postLikes.size()}
-        <g:form controller="likes" action="add"  method="post" >
+        <g:form controller="like" action="add"  method="post" >
             <g:hiddenField name="postId" value="${post.id}"/>
             <button class="btn pull-left"
                     style="margin-top:-26px;background: transparent;" name="addLikeSubmit"><i class="glyphicon glyphicon-thumbs-up"></i> </button>
