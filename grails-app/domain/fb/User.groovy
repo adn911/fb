@@ -11,7 +11,7 @@ class User {
     Date dob;
     String password;
 
- /*   List posts;
+   /* List posts;
     List comments;
     List likes;*/
 

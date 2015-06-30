@@ -8,7 +8,7 @@
 <%@include file="header.jsp" %>
 
 <div class="col-md-6 col-md-offset-3">
-    <%@include file="friendsListPanel.jsp" %>
+    <%@include file="_friendsListPanel.gsp" %>
 </div>
 
 <%@include file="footer.jsp" %>

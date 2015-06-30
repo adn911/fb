@@ -22,7 +22,7 @@
 
                     <li><g:link controller="home">Home</g:link></li>
                     <li><g:link controller="profile" id="${session.user.id}">Profile</g:link></li>
-                    <li><g:link controller="friends">friends</g:link></li>
+                    <li><g:link controller="friend">friends</g:link></li>
                     <li><g:link controller="auth" action="logout">logout</g:link></li>
 
                 </g:if>

@@ -12,7 +12,7 @@
         <div class="alert alert-success" role="alert">NEW FRIEND ADDED SUCCESSFULLY .</div>
     </c:if>
 
-    <%@include file="addableFriendsListPanel.jsp" %>
+    <%@include file="_addableFriendsListPanel.gsp" %>
 </div>
 
 <%@include file="footer.jsp" %>
