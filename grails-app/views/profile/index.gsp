@@ -24,7 +24,7 @@
 
                     <g:render template="/templates/postPanel" model="[post:post]"/>
 
-                    <g:each var="comment" in="${post.comments}">
+                    <g:each var="comment" in="${post.postComments}">
                         <g:render template="/templates/commentPanel" model="[comment:comment]"/>
                     </g:each>
 

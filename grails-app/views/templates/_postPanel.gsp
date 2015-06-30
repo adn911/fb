@@ -23,7 +23,7 @@
 
     <div class="panel-body">
         <p>${post.content}</p>
-        <span>${post.likes.size()}
+        <span>${post.postLikes.size()}
         <g:form controller="likes" action="add"  method="post" >
             <g:hiddenField name="postId" value="${post.id}"/>
             <button class="btn pull-left"

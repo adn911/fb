@@ -3,7 +3,7 @@ package fb
 class CommentController {
 
     def add() {
-        def user = session.user;
+        def user = User.findById(session.user.id);;
 
         def newComment = new Comment(user: user, post: Post.get(params.postId),
                 content: params.commentContent, dateTime: new Date());
@@ -14,7 +14,7 @@ class CommentController {
     }
 
     def remove() {
-        def user = session.user;
+        def user = User.findById(session.user.id);
 
         Comment.get(params.commentId).delete(flush: true);
 

@@ -3,7 +3,7 @@ package fb
 class PostController {
 
     def add() {
-        def user = (User) session.user;
+        def user = User.findById(session.user.id);
 
         def newPost = new Post(content: params.postContent, user: user, dateTime: new Date())
         newPost.save();
@@ -12,7 +12,7 @@ class PostController {
     }
 
     def remove() {
-        def user = session.user;
+        def user = User.findById(session.user.id);
 
         Post.get(params.postId).delete(flush: true);
 
