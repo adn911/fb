@@ -5,16 +5,16 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.work.dir = "target/work"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
-//grails.project.war.file = "target/${appName}-${appVersion}.war"
+grails.project.war.file = "/home/galib/apache-tomcat-7.0.62/webapps/${appName}.war"
 
 grails.project.fork = [
     // configure settings for compilation JVM, note that if you alter the Groovy version forked compilation is required
     //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
     // configure settings for the test-app JVM, uses the daemon by default
-    test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
+    //test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
     // configure settings for the run-app JVM
-    run: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+    //run: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the run-war JVM
     war: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the Console UI JVM
@@ -27,7 +27,7 @@ grails.project.dependency.resolution = {
     inherits("global") {
         // specify dependency exclusions here; for example, uncomment this to disable ehcache:
         // excludes 'ehcache'
-        //excludes 'grails-plugin-log4j', 'log4j'
+        excludes 'grails-plugin-log4j', 'log4j'
     }
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
@@ -45,7 +45,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
-        mavenRepo 'http://repo.grails.org/grails/libs-releases'
+        mavenRepo 'http://repo.grails.org/grails/repo/'
     }
 
     dependencies {
@@ -54,7 +54,12 @@ grails.project.dependency.resolution = {
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
 
-        //compile 'org.grails.plugins:logback:0.3.1'
+        compile 'org.grails.plugins:logback:0.3.1'
+
+        runtime 'commons-beanutils:commons-beanutils:1.9.2'
+
+        runtime "org.slf4j:jul-to-slf4j:1.7.7"
+        runtime "org.slf4j:log4j-over-slf4j:1.7.7"
     }
 
     plugins {
@@ -81,4 +86,5 @@ grails.project.dependency.resolution = {
     }
 }
 
+//System.setProperty('logback.configurationFile', "${basedir}/grails-app/conf/logback-build.groovy")
 //System.setProperty('logback.configurationFile', "${basedir}/grails-app/conf/logback-build.groovy")

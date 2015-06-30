@@ -96,12 +96,18 @@ environments {
 }
 
 // log4j configuration
-log4j.main = {
+/*
+log4j = {
     // Example of changing the log pattern for the default console appender:
     //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
+    appenders {
+        console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
+        file name:'file', file:'/home/galib/mylog.log'
+    }
+
+    info "grails.app"
+
+    debug "grails.app"
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
@@ -114,4 +120,28 @@ log4j.main = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+
+    root {
+        info 'stdout', 'file'
+    }
+}
+*/
+
+
+logback = {
+    appenders {
+        console name: 'stdout', encoder: pattern(pattern: '%c{2} %m%n')
+        file name: 'mylog', file: '/tmp/my.log'
+    }
+
+    info 'org.codehaus.groovy.grails',
+            'org.springframework',
+            'org.hibernate',
+            'net.sf.ehcache.hibernate'
+
+    info mylog: 'grails.app'
+
+    root {
+        warn 'stdout', 'mylog'
+    }
 }
