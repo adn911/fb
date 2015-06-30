@@ -156,7 +156,7 @@
       <file leaf-file-name="SignUpController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/SignUpController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.40298507" vertical-offset="0" max-vertical-offset="450">
+            <state line="7" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.31343284" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -860,12 +860,12 @@
       <workItem from="1435672675732" duration="5054000" />
       <workItem from="1435679291347" duration="6000" />
       <workItem from="1435679327282" duration="372000" />
-      <workItem from="1435679746252" duration="7876000" />
+      <workItem from="1435679746252" duration="8186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89764000" />
+    <option name="totallyTimeSpent" value="90074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1026" height="742" extended-state="6" />
@@ -1272,7 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/SignUpController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.40298507" vertical-offset="0" max-vertical-offset="450">
+        <state line="7" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.31343284" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
