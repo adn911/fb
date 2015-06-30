@@ -11,9 +11,9 @@ class User {
     Date dob;
     String password;
 
-   /* List posts;
+    List posts;
     List comments;
-    List likes;*/
+    List likes;
 
     static hasMany = [posts:Post,comments:Comment,likes:PostLike,friends:User];
     static mappedBy  = [ friends: 'friends' ]

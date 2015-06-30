@@ -4,11 +4,11 @@ class Post {
     String content;
     Date dateTime;
 
-   /* List likes;
-    List comments;*/
+    List postLikes;
+    List postComments;
 
     static belongsTo = [user: User];
-    static hasMany = [likes: PostLike, comments:Comment];
+    static hasMany = [postLikes: PostLike, postComments:Comment];
     static constraints = {
     }
 }
