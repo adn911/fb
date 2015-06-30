@@ -2,7 +2,7 @@ package fb
 
 class ImageController {
 
-    def showProfileImage(Integer id) {
-
+    def showProfilePhoto(Integer id) {
+        response.outputStream << User.get(id).photo
     }
 }

@@ -18,7 +18,7 @@
             <div class="friend-panel">
 
                 <div class="picture-div">
-                    <img class="img-circle" src="#" width="100px" height="100px">
+                    <img class="img-circle" src="${createLink(controller: "image", action: "showProfilePhoto", id: "${friend.id}")}" width="100px" height="100px" >
                 </div>
 
                 <div class="info-div">

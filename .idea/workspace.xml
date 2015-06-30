@@ -73,38 +73,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="241" selection-end="241" vertical-scroll-proportion="-6.130435" vertical-offset="24" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/ProfileController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="161" selection-end="161" vertical-scroll-proportion="-4.521739" vertical-offset="1" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="428" selection-end="428" vertical-scroll-proportion="-11.73913" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="84" selection-start="975" selection-end="983" vertical-scroll-proportion="-2.06383" vertical-offset="338" max-vertical-offset="810">
-              <folding />
+            <state line="23" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="-1.106383" vertical-offset="293" max-vertical-offset="810">
+              <folding>
+                <marker date="1435691668000" expanded="true" signature="278:375" placeholder="..." />
+                <marker date="1435691668000" expanded="true" signature="641:1210" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +88,25 @@
       <file leaf-file-name="friendSuggestions.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.9148936" vertical-offset="0" max-vertical-offset="480">
+            <state line="19" column="50" selection-start="358" selection-end="358" vertical-scroll-proportion="-3.255319" vertical-offset="132" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/ImageController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.9565217" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/profile/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.63829786" vertical-offset="135" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -121,46 +115,57 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/friend/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="82" selection-start="371" selection-end="371" vertical-scroll-proportion="-2.7021277" vertical-offset="83" max-vertical-offset="450">
+            <state line="13" column="52" selection-start="266" selection-end="266" vertical-scroll-proportion="-2.3829787" vertical-offset="83" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/signUp/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="94" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.48803827" vertical-offset="783" max-vertical-offset="1215">
+            <state line="59" column="21" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-5.106383" vertical-offset="645" max-vertical-offset="1230">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="-7.2244897" vertical-offset="246" max-vertical-offset="690">
+              <folding>
+                <element signature="e#12#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_friendsListPanel.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_friendsListPanel.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-12.446809" vertical-offset="0" max-vertical-offset="720">
+            <state line="15" column="45" selection-start="363" selection-end="363" vertical-scroll-proportion="3.7234042" vertical-offset="400" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <file leaf-file-name="SignUpController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/SignUpController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-3.9615386" vertical-offset="107" max-vertical-offset="945">
+            <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.40298507" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="LikeController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/LikeController.groovy">
+      <file leaf-file-name="_addableFriendsListPanel.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_addableFriendsListPanel.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.9130435" vertical-offset="0" max-vertical-offset="570">
+            <state line="20" column="130" selection-start="501" selection-end="587" vertical-scroll-proportion="-0.31914893" vertical-offset="285" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -194,14 +199,10 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/ProfileController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/profile.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/friends.jsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/fb/ImageController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/_header.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/templates/addFriend.jsp" />
         <option value="$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gp.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/templates/_addableFriendsListPanel.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/FriendController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/fb/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/fb/Post.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/CommentController.groovy" />
@@ -210,11 +211,15 @@
         <option value="$PROJECT_DIR$/grails-app/views/templates/_postPanel.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/LikeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/fb/HomeController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/templates/_friendsListPanel.gsp" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/views/auth/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/friend/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/signUp/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/fb/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/fb/ImageController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/templates/_addableFriendsListPanel.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/templates/_friendsListPanel.gsp" />
       </list>
     </option>
   </component>
@@ -855,12 +860,12 @@
       <workItem from="1435672675732" duration="5054000" />
       <workItem from="1435679291347" duration="6000" />
       <workItem from="1435679327282" duration="372000" />
-      <workItem from="1435679746252" duration="5330000" />
+      <workItem from="1435679746252" duration="7876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87218000" />
+    <option name="totallyTimeSpent" value="89764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1026" height="742" extended-state="6" />
@@ -881,8 +886,8 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44078946" sideWeight="0.4970703" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2944079" sideWeight="0.4970703" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -973,13 +978,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/SignUpController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/font-awesome.css">
@@ -1073,13 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_addableFriendsListPanel.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/AuthController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="480">
@@ -1107,13 +1098,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/ImageController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-3.2608695" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/Post.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="300">
@@ -1129,16 +1113,6 @@
         <state line="28" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="-8.936171" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="-3.4347825" vertical-offset="56" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/FriendController.groovy">
@@ -1208,30 +1182,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="462" selection-end="462" vertical-scroll-proportion="0.64593303" vertical-offset="225" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/PostController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="428" selection-end="428" vertical-scroll-proportion="-11.73913" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.9148936" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_friendsListPanel.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-12.446809" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
@@ -1248,21 +1201,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="84" selection-start="975" selection-end="983" vertical-scroll-proportion="-2.06383" vertical-offset="338" max-vertical-offset="810">
+        <state line="23" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="-1.106383" vertical-offset="293" max-vertical-offset="810">
+          <folding>
+            <marker date="1435691668000" expanded="true" signature="278:375" placeholder="..." />
+            <marker date="1435691668000" expanded="true" signature="641:1210" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/signUp/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="21" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-5.106383" vertical-offset="645" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/fb/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="-7.2244897" vertical-offset="246" max-vertical-offset="690">
+          <folding>
+            <element signature="e#12#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/ImageController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.9565217" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.63829786" vertical-offset="135" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_addableFriendsListPanel.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="130" selection-start="501" selection-end="587" vertical-scroll-proportion="-0.31914893" vertical-offset="285" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/friend/friendSuggestions.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="358" selection-end="358" vertical-scroll-proportion="-3.255319" vertical-offset="132" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/friend/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="82" selection-start="371" selection-end="371" vertical-scroll-proportion="-2.7021277" vertical-offset="83" max-vertical-offset="450">
+        <state line="13" column="52" selection-start="266" selection-end="266" vertical-scroll-proportion="-2.3829787" vertical-offset="83" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/signUp/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/templates/_friendsListPanel.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="94" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.48803827" vertical-offset="783" max-vertical-offset="1215">
+        <state line="15" column="45" selection-start="363" selection-end="363" vertical-scroll-proportion="3.7234042" vertical-offset="400" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/fb/SignUpController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.40298507" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>

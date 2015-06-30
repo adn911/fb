@@ -44,7 +44,7 @@
 
                 <div class="panel-body">
 
-                    <g:form action="signUp">
+                    <g:form action="signUp" enctype="multipart/form-data">
                         <g:textField name="username" id="username" class="form-control" placeholder="Enter Username"/> <br>
                         <g:textField name="email" id="email" class="form-control" placeholder="Enter Email"/> <br>
                         <g:passwordField name="password" id="password" class="form-control" placeholder="Enter Password"/> <br>
@@ -57,6 +57,7 @@
                         <g:textField name="firstName" id="firstName" class="form-control" placeholder="Enter FirstName"/> <br>
                         <g:textField name="lastName" id="lastName" class="form-control" placeholder="Enter lastName"/> <br>
 
+                        <input type="file" id="photo" name="photo" class="form-control"/><br>
                         <g:submitButton name="signUpSubmit" value="submit" class="btn btn-info"/>
 
                         <g:link controller="auth" class="btn">Login</g:link>

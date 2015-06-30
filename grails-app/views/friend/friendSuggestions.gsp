@@ -10,7 +10,6 @@
     <meta name="layout" content="main"/>
     <title>Friends Page</title>
 </head>
-<body>
 
 <body>
 <div class="container">
